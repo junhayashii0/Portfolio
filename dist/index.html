@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#66513c">
+  <meta name="description" content="Junのポートフォリオ。ITアナリストとして働きながら、個人でアプリやゲームをつくっています。">
+  <title>Jun — Small ideas, everyday.</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Crect width='40' height='40' rx='12' fill='%23413e32'/%3E%3Ctext x='12' y='29' fill='%23fff8ed' font-family='Georgia' font-size='30' font-style='italic'%3Ej%3C/text%3E%3C/svg%3E">
+  <link rel="preload" as="image" href="assets/desk-illustrated-v2.jpg">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="scene.css">
+  <link rel="stylesheet" href="room.css">
+  <script src="app.js" defer></script>
+  <script src="room.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#works" data-open="works">作品一覧へ</a>
+  <header class="site-header" id="header">
+    <nav aria-label="メインナビゲーション">
+      <span class="nav-indicator" aria-hidden="true"></span><a href="#works" data-open="works">Works</a><a href="#about" data-open="about">About</a><a href="#contact" data-open="contact">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <section class="desk-scroll" id="home" aria-label="Junの机">
+      <div class="desk-sticky">
+        <div class="scene-world" id="sceneWorld"><img class="desk-background" src="assets/desk-illustrated-v2.jpg" alt="柔らかなイラストで描かれた部屋。窓辺の木の机に、パソコン、丸い白い犬、マグカップや植物が並ぶ。" fetchpriority="high"><img class="desk-night" src="assets/desk-night.jpg" alt="" aria-hidden="true" decoding="async"><button type="button" class="laptop-link" aria-label="ターミナルを開く"><span class="terminal-window" aria-hidden="true"><span class="terminal-bar"><i></i><i></i><i></i></span><span class="terminal-content"><span class="terminal-sidebar"><span class="tree-root">⌄ <svg viewBox="0 0 12 10" aria-hidden="true"><path d="M0 1.2C0 .5.5 0 1.2 0h3l1.2 1.3h5.4c.7 0 1.2.5 1.2 1.2v6.3c0 .7-.5 1.2-1.2 1.2H1.2C.5 10 0 9.5 0 8.8Z"/></svg>apps</span><span class="tree-child"><svg viewBox="0 0 12 10" aria-hidden="true"><path d="M0 1.2C0 .5.5 0 1.2 0h3l1.2 1.3h5.4c.7 0 1.2.5 1.2 1.2v6.3c0 .7-.5 1.2-1.2 1.2H1.2C.5 10 0 9.5 0 8.8Z"/></svg>Monestia</span><span class="tree-child"><svg viewBox="0 0 12 10" aria-hidden="true"><path d="M0 1.2C0 .5.5 0 1.2 0h3l1.2 1.3h5.4c.7 0 1.2.5 1.2 1.2v6.3c0 .7-.5 1.2-1.2 1.2H1.2C.5 10 0 9.5 0 8.8Z"/></svg>CotoCoto</span><span class="tree-child"><svg viewBox="0 0 12 10" aria-hidden="true"><path d="M0 1.2C0 .5.5 0 1.2 0h3l1.2 1.3h5.4c.7 0 1.2.5 1.2 1.2v6.3c0 .7-.5 1.2-1.2 1.2H1.2C.5 10 0 9.5 0 8.8Z"/></svg>Logline</span><span class="tree-child"><svg viewBox="0 0 12 10" aria-hidden="true"><path d="M0 1.2C0 .5.5 0 1.2 0h3l1.2 1.3h5.4c.7 0 1.2.5 1.2 1.2v6.3c0 .7-.5 1.2-1.2 1.2H1.2C.5 10 0 9.5 0 8.8Z"/></svg>Nesk</span><span class="tree-child"><svg viewBox="0 0 12 10" aria-hidden="true"><path d="M0 1.2C0 .5.5 0 1.2 0h3l1.2 1.3h5.4c.7 0 1.2.5 1.2 1.2v6.3c0 .7-.5 1.2-1.2 1.2H1.2C.5 10 0 9.5 0 8.8Z"/></svg>Shelfie</span><span class="tree-child"><svg viewBox="0 0 12 10" aria-hidden="true"><path d="M0 1.2C0 .5.5 0 1.2 0h3l1.2 1.3h5.4c.7 0 1.2.5 1.2 1.2v6.3c0 .7-.5 1.2-1.2 1.2H1.2C.5 10 0 9.5 0 8.8Z"/></svg>Petport</span><span class="tree-child"><svg viewBox="0 0 12 10" aria-hidden="true"><path d="M0 1.2C0 .5.5 0 1.2 0h3l1.2 1.3h5.4c.7 0 1.2.5 1.2 1.2v6.3c0 .7-.5 1.2-1.2 1.2H1.2C.5 10 0 9.5 0 8.8Z"/></svg>Stabit</span><span class="tree-child"><svg viewBox="0 0 12 10" aria-hidden="true"><path d="M0 1.2C0 .5.5 0 1.2 0h3l1.2 1.3h5.4c.7 0 1.2.5 1.2 1.2v6.3c0 .7-.5 1.2-1.2 1.2H1.2C.5 10 0 9.5 0 8.8Z"/></svg>Monoria</span><span class="tree-root">⌄ <svg viewBox="0 0 12 10" aria-hidden="true"><path d="M0 1.2C0 .5.5 0 1.2 0h3l1.2 1.3h5.4c.7 0 1.2.5 1.2 1.2v6.3c0 .7-.5 1.2-1.2 1.2H1.2C.5 10 0 9.5 0 8.8Z"/></svg>web</span><span class="tree-child"><svg viewBox="0 0 12 10" aria-hidden="true"><path d="M0 1.2C0 .5.5 0 1.2 0h3l1.2 1.3h5.4c.7 0 1.2.5 1.2 1.2v6.3c0 .7-.5 1.2-1.2 1.2H1.2C.5 10 0 9.5 0 8.8Z"/></svg>Portfolio</span><span class="tree-child"><svg viewBox="0 0 12 10" aria-hidden="true"><path d="M0 1.2C0 .5.5 0 1.2 0h3l1.2 1.3h5.4c.7 0 1.2.5 1.2 1.2v6.3c0 .7-.5 1.2-1.2 1.2H1.2C.5 10 0 9.5 0 8.8Z"/></svg>Bezel</span></span><span class="terminal-main"><svg class="terminal-dog" viewBox="0 0 100 90"><path d="M50 16A8.5 8.5 0 0 1 65.8 19.4A8.5 8.5 0 0 1 78 29A8.5 8.5 0 0 1 83.8 42.4A8.5 8.5 0 0 1 81.8 56.6A8.5 8.5 0 0 1 72.5 68.5A8.5 8.5 0 0 1 58.1 75.1A8.5 8.5 0 0 1 41.9 75.1A8.5 8.5 0 0 1 27.5 68.5A8.5 8.5 0 0 1 18.2 56.6A8.5 8.5 0 0 1 16.2 42.4A8.5 8.5 0 0 1 22 29A8.5 8.5 0 0 1 34.2 19.4A8.5 8.5 0 0 1 50 16Z"/><path d="M22 70q-4 10 8 10h40q12 0 8-10" /><circle cx="39" cy="48" r="3.4" class="fill"/><circle cx="61" cy="48" r="3.4" class="fill"/><ellipse cx="50" cy="56" rx="3.2" ry="2.3" class="fill"/><path d="M45 61q5 4 10 0"/></svg><span class="terminal-path">jun@portfolio ~</span><span class="terminal-prompt">&gt; <span class="terminal-typed"></span><span class="terminal-cursor">▍</span></span><span class="terminal-hint">click to open ↵</span></span></span></span></button><span class="dog-zz" aria-hidden="true"><i>z</i><i>z</i><i>Z</i></span><span class="dog-bubble" id="dogBubble" aria-live="polite"></span><button type="button" class="hotspot hotspot-dog" data-spot="dog" aria-label="眠っている犬をなでる"></button><button type="button" class="hotspot hotspot-books" data-spot="about" aria-label="本を開いて、Junについて読む"><span class="spot-label">About</span></button><button type="button" class="hotspot hotspot-phone" data-spot="contact" aria-label="スマホを手に取って連絡する"><span class="spot-label">Contact</span></button><button type="button" class="hotspot hotspot-lamp" data-spot="lamp" aria-label="ランプをつけて、部屋を夜にする" aria-pressed="false"><span class="spot-label">Light</span></button><span class="night-shade" aria-hidden="true"></span><span class="night-glow" aria-hidden="true"></span></div>
+        <div class="desk-shade" aria-hidden="true"></div>
+        <button type="button" class="tilt-button" id="tiltButton" aria-pressed="false"><span class="tilt-icon" aria-hidden="true"></span><span class="tilt-label">傾けて遊ぶ</span></button>
+        <div class="pan-hint" aria-hidden="true"><span>‹</span>スワイプで部屋を見回す<span>›</span></div>
+        <h1 class="visually-hidden">Jun — アプリやWebで、ちょっと便利で、ちょっと楽しい体験をつくっています。</h1>
+        <div class="desk-items" id="deskItems" aria-label="机の上の8作品。クリックで詳細、ドラッグで移動"></div>
+        <div class="desk-bottom"><div class="hero-social"><p class="hero-tagline">Small ideas,<br>a brighter everyday.</p><button type="button" class="tidy-button" id="tidyButton"><span class="tidy-icon" aria-hidden="true"></span><span class="tidy-label">片付ける</span></button><a href="https://github.com/junhayashii0" target="_blank" rel="noopener noreferrer" aria-label="GitHub (junhayashii0)"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 .5a11.5 11.5 0 0 0-3.64 22.41c.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.53-1.33-1.28-1.69-1.28-1.69-1.04-.71.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.96.1-.75.4-1.25.73-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.17 1.18a11 11 0 0 1 5.77 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.39-5.26 5.67.41.36.78 1.06.78 2.14v3.17c0 .31.21.67.8.56A11.5 11.5 0 0 0 12 .5Z"/></svg></a><a href="https://x.com/jun21ky" target="_blank" rel="noopener noreferrer" aria-label="X (@jun21ky)"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M18.9 2H22l-6.8 7.8L23.2 22h-6.3l-4.9-6.4L6.4 22H3.3l7.3-8.3L2.9 2h6.4l4.4 5.8Zm-1.1 18.1h1.7L8.3 3.8H6.5Z"/></svg></a></div></div>
+      </div>
+    </section>
+  </main>
+  <dialog id="projectDialog" aria-labelledby="dialogTitle"><button class="dialog-close" aria-label="作品詳細を閉じる" type="button">×</button><div id="dialogContent" tabindex="-1" autofocus data-autofocus></div></dialog>
+
+  <dialog id="worksDialog" class="works-dialog" aria-labelledby="worksTitle">
+    <div class="works-panel">
+      <button type="button" class="sheet-close" aria-label="一覧を閉じる">×</button>
+      <header class="works-head"><p class="page-kicker">Works</p><h2 id="worksTitle">つくったもの。</h2><p>机の上のアプリと、PCの中のWebサイト。</p></header>
+      <h3 class="works-sub">Apps <span>iOS / Desktop</span></h3>
+      <div class="works-grid" id="worksGrid"></div>
+      <h3 class="works-sub">Web <span>ブラウザで</span></h3>
+      <div class="works-grid web-grid" id="webGrid"></div>
+    </div>
+  </dialog>
+  <dialog id="terminalDialog" class="terminal-dialog" aria-label="ターミナル">
+    <div class="term">
+      <div class="term-bar"><button type="button" class="term-close" aria-label="ターミナルを閉じる"></button><i></i><i></i><span>jun@portfolio — zsh</span></div>
+      <div class="term-body">
+        <nav class="term-side" id="termSide" aria-label="プロジェクト"></nav>
+        <div class="term-main" id="termMain">
+          <div class="term-log" id="termLog" role="log" aria-live="polite"></div>
+          <form class="term-form" id="termForm"><label for="termInput" class="term-ps">jun@portfolio ~ %</label><input id="termInput" type="text" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" enterkeyhint="send"></form>
+        </div>
+      </div>
+      <div class="term-chips" id="termChips" aria-label="よく使うコマンド"></div>
+    </div>
+  </dialog>
+  <dialog id="bookDialog" class="book-dialog" aria-labelledby="bookTitle">
+    <div class="book">
+      <button type="button" class="sheet-close" aria-label="本を閉じる">×</button>
+      <section class="page page-left" tabindex="-1" autofocus data-autofocus>
+        <p class="page-kicker">About</p>
+        <h2 id="bookTitle">こんにちは、<br>Junです。</h2>
+        <p>ITアナリストとして働きながら、個人でアプリやゲームをつくっています。</p>
+        <p>2026年6月に個人開発をはじめ、8月に初めてのアプリをリリース。いまは5本のアプリを公開しています。</p>
+        <p>便利なだけでなく、使っていてちょっと楽しくなるものを目指しています。</p>
+        <a class="page-link" href="https://x.com/jun21ky" target="_blank" rel="noopener noreferrer">@jun21ky <span aria-hidden="true">↗</span></a>
+        <a class="page-link" href="https://github.com/junhayashii0" target="_blank" rel="noopener noreferrer">GitHub <span aria-hidden="true">↗</span></a>
+      </section>
+      <section class="page page-right" aria-label="これまでと、お手伝いできること">
+        <h3 class="page-sub">これまで</h3>
+        <ol class="timeline">
+          <li><time>2026.06</time><span>個人開発をはじめる</span></li>
+          <li><time>2026.08</time><span>初めてのアプリをリリース</span></li>
+          <li><time>2026.09</time><span>App Store で5本公開中</span></li>
+        </ol>
+        <h3 class="page-sub">お手伝いできること</h3>
+        <ul class="offer">
+          <li>iOS アプリの企画から開発・リリースまで</li>
+          <li>Web アプリ / ツールの開発</li>
+          <li>業務の課題整理（ITアナリストとしての経験から）</li>
+        </ul>
+        <div class="page-foot">
+          <p>お仕事のご相談も、アプリの感想も、お気軽にどうぞ。</p>
+          <div class="page-actions"><button type="button" class="page-btn" data-open="works">作品を見る</button><button type="button" class="page-btn is-primary" data-open="contact">連絡する</button></div>
+        </div>
+      </section>
+    </div>
+  </dialog>
+  <dialog id="phoneDialog" class="phone-dialog" aria-labelledby="phoneTitle">
+    <div class="phone">
+      <div class="phone-screen">
+        <div class="phone-status"><span id="phoneTime">9:41</span><span class="phone-island" aria-hidden="true"></span><span class="phone-battery" aria-hidden="true"></span></div>
+        <header class="phone-head"><button type="button" class="phone-back" aria-label="スマホを置く">‹</button><span class="phone-avatar" aria-hidden="true">J</span><h2 id="phoneTitle">Jun</h2></header>
+        <div class="phone-thread" tabindex="-1" autofocus data-autofocus>
+          <p class="bubble">こんにちは、Junです。</p>
+          <p class="bubble">お仕事のご相談、アプリの感想、ゲームの話。<br>どれもうれしいです。</p>
+          <p class="bubble">いちばん早いのは X です。</p>
+        </div>
+        <div class="phone-actions">
+          <button type="button" class="phone-cta" id="formButton" hidden>フォームで送る</button>
+          <a class="phone-cta" id="xButton" href="https://x.com/jun21ky" target="_blank" rel="noopener noreferrer">X でメッセージを送る <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="phone-form" id="phoneForm" hidden><div class="phone-form-bar"><button type="button" class="phone-back" id="formBack" aria-label="メッセージにもどる">‹</button><span>お問い合わせ</span></div><iframe title="お問い合わせフォーム" loading="lazy"></iframe></div>
+      </div>
+    </div>
+  </dialog>
+</body>
+</html>

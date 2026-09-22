@@ -1,0 +1,15 @@
+Use case: precise-object-edit
+Asset type: clean illustrated desk background for a personal portfolio, edited from the supplied image.
+Input image: source-assets/illustrated-desk-background.png — this is the EDIT TARGET. Preserve its exact soft anime / painterly illustration style, palette, lighting and camera.
+
+Primary request: Rearrange the desk so the FOREGROUND of the tabletop becomes a larger empty play area.
+1. Move the LAPTOP further back on the desk, toward the window, and make it slightly smaller to match the new distance (about 80–85% of its current size). Keep it centered horizontally around the same x position, screen facing the viewer, same angle. Its keyboard front edge should end around 58–60% of the image height (currently ~72%).
+2. Keep the laptop screen a clean DARK NAVY-CHARCOAL blank screen with only a subtle dark terminal window outline and three tiny red/yellow/green dots in its upper-left corner, exactly like the current image. No text or content on the screen.
+3. Move the COFFEE MUG with its cork coaster further back as well, next to the left side of the laptop, slightly smaller for the distance. Move the pen holder back with it if needed so the left side stays tidy.
+4. Move the PHONE back so it lies flat near the headphones, behind the new front area.
+5. The sleeping white dog, the stack of books with the small dog figurine, the headphones, the desk lamp, the window, plants and the city view stay where they are, at the same size.
+6. The lower ~40% of the image (from about 60% of the height to the bottom) must be EMPTY warm wood tabletop with the same illustrated wood grain and the same soft dappled leaf shadows. The large softly blurred foreground plant at the lower-left may stay but should not grow; keep it within the left ~20% of the width.
+
+Preserve: the exact illustrated look (soft outlines, simplified textures), warm peach/caramel/cream palette, golden afternoon sunlight, window and city, the kawaii fluffy dog, books with their existing spine text, headphones, lamp. Everything must look like the same illustration after rearranging, not a redesigned scene.
+
+Constraints: NO text overlays, NO UI, NO navigation, NO app icons or tiles, NO new objects, NO photorealism, NO change of camera or crop. Exactly one landscape image, 3:2, 1536 × 1024 or larger at the same ratio.
